@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/home/fullness/work/CS_Training/WebApp/WebApp_Exercise/wwwroot/html/Exercise07.html",
+      "PackagePath": "staticwebassets/html/Exercise07.html"
+    },
+    {
       "Id": "/home/fullness/work/CS_Training/WebApp/WebApp_Exercise/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },
