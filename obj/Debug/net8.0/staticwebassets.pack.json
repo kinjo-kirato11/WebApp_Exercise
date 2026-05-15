@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets/html/Exercise07.html"
     },
     {
+      "Id": "/home/fullness/work/CS_Training/WebApp/WebApp_Exercise/wwwroot/html/Option03.html",
+      "PackagePath": "staticwebassets/html/Option03.html"
+    },
+    {
       "Id": "/home/fullness/work/CS_Training/WebApp/WebApp_Exercise/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },

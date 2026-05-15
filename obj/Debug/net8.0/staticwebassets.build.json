@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Y3BlZhyO0GOJpeiwV+JvwmsPXQ7pD7YCwWkyC3smA7s=",
+  "Hash": "INzsivVbSSURvw6UkbUoLqQUCuMBoXeZ+g1Sot1G2NQ=",
   "Source": "WebApp_Exercise",
   "BasePath": "_content/WebApp_Exercise",
   "Mode": "Default",
@@ -110,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/html/Exercise07.html"
+    },
+    {
+      "Identity": "/home/fullness/work/CS_Training/WebApp/WebApp_Exercise/wwwroot/html/Option03.html",
+      "SourceId": "WebApp_Exercise",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/fullness/work/CS_Training/WebApp/WebApp_Exercise/wwwroot/",
+      "BasePath": "_content/WebApp_Exercise",
+      "RelativePath": "html/Option03.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/html/Option03.html"
     },
     {
       "Identity": "/home/fullness/work/CS_Training/WebApp/WebApp_Exercise/wwwroot/js/site.js",
