@@ -18,6 +18,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /home/fullness/work/CS_Training/WebApp/WebApp_Exercise
 build_property._RazorSourceGeneratorDebug = 
 
+[/home/fullness/work/CS_Training/WebApp/WebApp_Exercise/Views/Ex09/Enter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXgwOS9FbnRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fullness/work/CS_Training/WebApp/WebApp_Exercise/Views/Ex09/Result.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXgwOS9SZXN1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/fullness/work/CS_Training/WebApp/WebApp_Exercise/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -36,6 +44,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/home/fullness/work/CS_Training/WebApp/WebApp_Exercise/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fullness/work/CS_Training/WebApp/WebApp_Exercise/Views/TagHelperForm copy/Enter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGFnSGVscGVyRm9ybSBjb3B5L0VudGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fullness/work/CS_Training/WebApp/WebApp_Exercise/Views/TagHelperForm copy/Result.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGFnSGVscGVyRm9ybSBjb3B5L1Jlc3VsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/fullness/work/CS_Training/WebApp/WebApp_Exercise/Views/TagHelperForm/Enter.cshtml]

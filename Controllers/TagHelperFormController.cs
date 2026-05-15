@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 /// <summary>
 /// タグヘルパーを利用するコントローラ
 /// </summary>
@@ -10,6 +11,14 @@ public class TagHelperFormController : Controller
     {
         // SampleFormを生成する
         var form = new SampleForm();
+        /*form.PrefecturesList = new List<SelectListItem>
+        {
+
+        new SelectListItem{ Text="--選択されていません--", Value="0" , Selected = true },
+        new SelectListItem{ Text= "北海道", Value= "1" },
+        new SelectListItem{ Text= "青森県", Value= "2" },
+        new SelectListItem{ Text= "岩手県", Value= "3" },
+        };*/
         // Enter.cshtmlにSampleFormを渡す
         return View(form);
     }
@@ -33,7 +42,8 @@ public class TagHelperFormController : Controller
     [HttpGet("Back")]
     public IActionResult Back(SampleForm form)
     {
-        // 入力画面を出力する
+        // 入力画面を出力する    public List<SelectListItem> PrefecturesList { get; set; } = new List<SelectListItem>
+
         return View("Enter", form);
     }
 }
