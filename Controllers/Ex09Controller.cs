@@ -20,13 +20,17 @@ public class Ex09Controller : Controller
     /// [計算]ボタンクリックアクション
     /// </summary>
     /// <returns></returns>
-    [HttpPost("Result")]
-    public IActionResult Result(Exercise07Form form)
+[HttpPost("Result")]
+public IActionResult Result(Exercise07Form form)
+{
+    // バリデーションチェック
+    if (!ModelState.IsValid)
     {
-        form.Answer = form.Value1 + form.Value2;
-        return View(form);
+        return View("Enter",form);
     }
-
+    form.Answer = form.Value1 + form.Value2;
+    return View(form);
+ }
     /// <summary>
     /// [戻る]ボタンクリックアクション
     /// </summary>
@@ -37,4 +41,5 @@ public class Ex09Controller : Controller
         var form = new Exercise07Form();
         return View("Enter", form);
     }
+    
 }
