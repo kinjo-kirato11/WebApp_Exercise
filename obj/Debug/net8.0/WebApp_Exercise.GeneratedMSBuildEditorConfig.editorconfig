@@ -34,6 +34,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/fullness/work/CS_Training/WebApp/WebApp_Exercise/Views/Op04/Enter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3AwNC9FbnRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fullness/work/CS_Training/WebApp/WebApp_Exercise/Views/Op04/Result.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3AwNC9SZXN1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/fullness/work/CS_Training/WebApp/WebApp_Exercise/Views/RazorSyntaxSample/Show.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmF6b3JTeW50YXhTYW1wbGUvU2hvdy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -44,14 +52,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/home/fullness/work/CS_Training/WebApp/WebApp_Exercise/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/home/fullness/work/CS_Training/WebApp/WebApp_Exercise/Views/TagHelperForm copy/Enter.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGFnSGVscGVyRm9ybSBjb3B5L0VudGVyLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/home/fullness/work/CS_Training/WebApp/WebApp_Exercise/Views/TagHelperForm copy/Result.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGFnSGVscGVyRm9ybSBjb3B5L1Jlc3VsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/fullness/work/CS_Training/WebApp/WebApp_Exercise/Views/TagHelperForm/Enter.cshtml]
