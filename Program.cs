@@ -1,5 +1,7 @@
 using WebApp_Exercise.Presentations.Extensions;
 using WebApp_Exercise.Infrastructures.Context;
+using WebApp_Exercise.Presentations.Middlewares;
+
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,7 +14,7 @@ builder.Services.SettingDependencyInjection(builder.Configuration);
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
-
+app.UseMiddleware<InternalExceptionLoggingMiddleware>();
 
 
 
