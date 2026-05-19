@@ -149,8 +149,8 @@ public class Item
 
     internal void ChangeItemCategory(ItemCategory category)
     {
-        throw new NotImplementedException();
+        ItemCategory = category;
     }
-
+  
 
 }

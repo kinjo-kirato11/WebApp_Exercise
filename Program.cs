@@ -1,4 +1,6 @@
 using WebApp_Exercise.Presentations.Extensions;
+using WebApp_Exercise.Infrastructures.Context;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -6,13 +8,13 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 // 依存定義および依存性注入
 builder.Services.SettingDependencyInjection(builder.Configuration); 
+// Add services to the container.
+builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
 
 
-// Add services to the container.
-builder.Services.AddControllersWithViews();
 
 
 

@@ -95,6 +95,7 @@ public class ItemRepository : IItemRepository
             var itemEntity = _itemAdapter.Convert(item);
             _appDbContext.Items.Add(itemEntity);
             _appDbContext.SaveChanges(); // 商品Id(主キー)が採番される
+            
 
             // 2.ItemStock を永続化
             if (item.ItemStock != null)
@@ -107,6 +108,7 @@ public class ItemRepository : IItemRepository
         }
         catch (Exception e)
         {
+            Console.WriteLine(e.StackTrace);
             throw new InternalException("商品を永続化できませんでした。", e);
         }
     }
