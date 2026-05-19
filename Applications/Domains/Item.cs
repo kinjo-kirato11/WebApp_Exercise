@@ -145,5 +145,12 @@ public class Item
         var categoryText = ItemCategory?.ToString() ?? "未登録";
         var stockText = ItemStock?.ToString() ?? "未登録"; 
         return $"商品Id={idText},商品名={nameText},単価={priceText},商品カテゴリ={categoryText},商品在庫={stockText}";
-    }   
+    }
+
+    internal void ChangeItemCategory(ItemCategory category)
+    {
+        throw new NotImplementedException();
+    }
+
+
 }
